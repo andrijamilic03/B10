@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav {
+  padding: 20px;
+  background-color: #4287f5;
+}
+
+.nav h1 {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.navigacija {
+  background-color: #0b3375;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px 20px 20px 20px;
+}
+
+.navigacija a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  background-color: #0945a7;
+  margin-right: 10px;
+}
+
+form {
+  padding: 20px;
+}
+
+form select, form input, form textarea {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */
